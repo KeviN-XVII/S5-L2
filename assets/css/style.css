@@ -479,19 +479,12 @@ aside div {
 .fas.fa-tag {
   position: absolute;
   top: 10px;
-  left: 300px;
-  font-size: 5rem;
+  right: 10px;
+  font-size: 4rem;
   color: #c0c0c0;
 }
 
 @media screen and (min-width: 600px) {
-  .fas.fa-tag {
-    position: absolute;
-    top: 10px;
-    left: 450px;
-    font-size: 4rem;
-    color: #c0c0c0;
-  }
   #iconsquare {
     top: 130px;
   }
@@ -505,14 +498,5 @@ aside div {
   }
   #iconcalendar {
     bottom: 70px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .fas.fa-tag {
-    position: absolute;
-    top: 10px;
-    left: 270px;
-    font-size: 5rem;
-    color: #c0c0c0;
   }
 }
